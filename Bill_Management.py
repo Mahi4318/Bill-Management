@@ -59,7 +59,7 @@ def Total():
 def Print_Bill():
     items = [("Dosa", dosa.get(), 60), ("Noodles", Noodles.get(), 30), ("Idly", Idly.get(), 40),
              ("Tea", Tea.get(), 20), ("Coffee", Coffee.get(), 30), ("Juice", Juice.get(), 50), ("Poori", Poori.get(), 45)]
-    bill_output = "\nItem Name,\tQty\tPrice\n-------------------------------------------------\n"
+    bill_output = "\nItem Name\tQty\tPrice\n-------------------------------------------------\n"
     total_price = 0
     for item, qty, price in items:
         if qty:
